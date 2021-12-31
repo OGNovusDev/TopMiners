@@ -18,7 +18,7 @@
 - topminers.stats - Usage of "/topm stats"
 - topminers.reload - Usage of "/topm reload"
 
-##PlaceHolderAPI
+## PlaceHolderAPI
 #### Option depedency, must have [PlaceHolderAPI](https://www.spigotmc.org/resources/placeholderapi.6245/) installed to use.
 #### Version 1.0.1 Introduces A PlaceHolder Expansion
 - %topminers_blocksbroken% - Returns the amount of blocks broken by a player
