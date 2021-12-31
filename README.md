@@ -1,9 +1,10 @@
 # TopMiners
+
 ## About
-- TopMiners creates a leaderboard to display most blocks brokens.
+TopMiners creates a leaderboard to display players who have broken the most blocks
 - Minecraft 1.18+
 - Uses Java Version 17+
-- Currently the leaderboard is limited to 10 slots, keep this in mind if your using placeHolders
+- Currently, the leaderboard is limited to 10 slots. Keep this in mind if you are using **PlaceHolders** with **PlaceHolderAPI**
 
 ## Commands
 - /topm - General help command(Player only)
@@ -19,7 +20,7 @@
 - topminers.reload - Usage of "/topm reload"
 
 ## PlaceHolderAPI
-#### Option depedency, must have [PlaceHolderAPI](https://www.spigotmc.org/resources/placeholderapi.6245/) installed to use.
+#### Optional dependency, must have [PlaceHolderAPI](https://www.spigotmc.org/resources/placeholderapi.6245/) installed to use.
 #### Version 1.0.1 Introduces A PlaceHolder Expansion
 - %topminers_blocksbroken% - Returns the amount of blocks broken by a player
   - Usage - %topminers_blocksbroken%
@@ -27,4 +28,4 @@
   - Usage - %topminers_top_10%
 
 ## Future Plans
-- Make leaderboard infinitie with multiple pages, page size being determined by Config.YML
+- Make leaderboard infinite with multiple pages, page size being determined by Config.YML
