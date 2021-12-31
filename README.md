@@ -18,9 +18,11 @@
 - topminers.stats - Usage of "/topm stats"
 - topminers.reload - Usage of "/topm reload"
 
-## Place Holders
+##PlaceHolderAPI
+#### Option depedency, must have [PlaceHolderAPI](https://www.spigotmc.org/resources/placeholderapi.6245/) installed to use.
 #### Version 1.0.1 Introduces A PlaceHolder Expansion
 - %topminers_blocksbroken% - Returns the amount of blocks broken by a player
+  - Usage - %topminers_blocksbroken%
 - %topminers_top_leaderboardSpot% - Returns a string of the leaderboard spot(Player - BlocksBroken).  
   - Usage - %topminers_top_10%
 
