@@ -1,0 +1,36 @@
+main: com.cookiecool.TopMiners.Main
+name: TopMiners
+version: 1.0.1
+description: Leaderboard based on how many blocks mined.
+api-version: 1.18
+author: cookiecool/Novus
+softdepend: [PlaceHolderAPI]
+commands:
+  topm:
+    description: General help command
+    usage: /<command>
+  topm help:
+    description: General help command
+    usage: /<command>
+  topm top:
+    description: View leaderboard of blocks broken
+    usage: /<command>
+  topm stats:
+    description: View how much blocks you have broken
+    usage: /<command>
+  topm reload:
+    description: Reload Config.YML file
+    usage: /<command>
+permissions:
+  topminers.help:
+    description: Allows a list of commands available to the player using /topm
+    default: op
+  topminers.top:
+    description: Allows the player to view the leaderboard of blocks mined /topm top
+    default: op
+  topminers.stats:
+    description: Allows the player to view their current blocks mined stats using /topm stats
+    default: op
+  topminers.reload:
+    description: Allows the reload of the config.yml using /topm reload
+    default: ops

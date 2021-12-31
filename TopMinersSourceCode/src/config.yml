@@ -1,0 +1,10 @@
+Prefix: "&8[&a&lTop&7&lMiners&8]" #Prefix display in chat messages
+
+##LeaderBoardDisplayAmount: 10 #How much players should the leaderboard display.(Not implemented yet)
+
+helpRequiresPermission: true #Does /tm require require tm.help permission
+
+topTopRequiresPermission: true #Does /tm top require tm.top permission
+
+statsRequirePermissions: true #Does /tm stats require tm.stats permission
+
